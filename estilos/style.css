@@ -105,15 +105,15 @@ iframe#tela {
 }
 
 .vertical-line2 {
-    border-left: 22px solid #202020;
-    height: 335px;
+    border-left: 25px solid #202020;
+    height: 350px;
     position: fixed;
     top: -120px;
-    right: calc(100% + 155px);
+    right: calc(100% + 153px);
    
 }
 
-@media screen and (max-width: 950px) ,(max-height: 900px) {
+@media screen and (max-width: 950px) ,(max-height: 800px) {
     .verticalname1, .verticalname2, .vertical-line, .vertical-line2 {
         display: none;
     }
