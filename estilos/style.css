@@ -146,17 +146,3 @@ section#redes-sociais img:hover {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
     transition: transform 0.5s;
 }
-
-@media screen and (max-height: 900px) {
-    section#redes-sociais {
-        position: fixed;
-        top: 90px;
-        left: 900px;
-        transform: none;
-    }
-
-    section#redes-sociais a {
-        display: block;
-        margin: 5px 0;
-    }
-}
