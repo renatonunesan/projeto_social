@@ -64,7 +64,7 @@ iframe#tela {
     letter-spacing: -90px;
     text-orientation: upright;
     position: fixed;
-    top: 70%;
+    top: 68%;
     right: calc(100% + -75px);
     transform: translate(-50%, -50%);
 }
@@ -85,29 +85,59 @@ iframe#tela {
 
 .vertical-line {
     border-left: 23px solid #202020;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 452px;
     position: fixed;
     top: 50%;
-    left: calc(100% + 160px);
+    left: calc(100% + 162px);
    
 }
 
 .vertical-line > img {
     position: fixed;
     width: 100px;
-    bottom: 9px;
-    left: 482px;
+    bottom: 250px;
+    left: 483px;
     border-radius: 50%;
+    
    
 }
 
+.vertical-line2 {
+    border-left: 22px solid #202020;
+    height: 335px;
+    position: fixed;
+    top: -120px;
+    right: calc(100% + 155px);
+   
+}
 
-@media screen and (max-width: 950px) {
-    .verticalname1, .verticalname2, .vertical-line {
+@media screen and (max-width: 950px) ,(max-height: 900px) {
+    .verticalname1, .verticalname2, .vertical-line, .vertical-line2 {
         display: none;
     }
 }
 
+section#redes-sociais {
+    display: block;
+    position: absolute;
+    top: 6.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+section#redes-sociais img {
+    width: 65px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid #686869;
+    transform: translate(-2px, -2px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.5s;
+}
