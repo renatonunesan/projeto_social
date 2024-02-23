@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+body {
+    background-image: linear-gradient(to top, #202020, #686869, #99988e, #f4ee59);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    
+}
+
+section#telefone {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 627px;
+    width: 311px;
+    background: url('../imagens/frame-iphone.png') no-repeat;
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 267px;
+    height: 471px;
+}
+
+.container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 360px;
+    height: 680px;
+    background-color: #202020;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8); 
+}
+
+.verticalname1 {
+    font-size: 200px;
+    padding: -10px;
+    font-family: Electroharmonix;
+    color: #202020;
+    writing-mode: vertical-rl;
+    letter-spacing: -90px;
+    text-orientation: upright;
+    position: fixed;
+    top: 70%;
+    right: calc(100% + -75px);
+    transform: translate(-50%, -50%);
+}
+
+.verticalname2 {
+    font-size: 200px;
+    padding: -10px;
+    font-family: Electroharmonix;
+    color: #202020;
+    writing-mode: vertical-rl;
+    letter-spacing: -90px;
+    text-orientation: upright;
+    position: fixed;
+    top: 6%;
+    left: calc(100% + 172px);
+    transform: translate(-50%, -50%);
+}
+
+.vertical-line {
+    border-left: 23px solid #202020;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 200px;
+    position: fixed;
+    top: 50%;
+    left: calc(100% + 160px);
+   
+}
+
+.vertical-line > img {
+    position: fixed;
+    width: 100px;
+    bottom: 9px;
+    left: 482px;
+    border-radius: 50%;
+   
+}
+
+
+@media screen and (max-width: 950px) {
+    .verticalname1, .verticalname2, .vertical-line {
+        display: none;
+    }
+}
+
+
